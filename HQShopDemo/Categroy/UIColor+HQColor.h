@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  UIColor+HQColor.h
 //  HQShopDemo
 //
 //  Created by Mr_Han on 2018/10/16.
@@ -8,10 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (strong, nonatomic) UIWindow *window;
+@interface UIColor (HQColor)
 
++ (UIColor *) colorWithHexString: (NSString *)color;
 
 @end
 
+NS_ASSUME_NONNULL_END

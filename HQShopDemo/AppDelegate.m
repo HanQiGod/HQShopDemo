@@ -2,11 +2,13 @@
 //  AppDelegate.m
 //  HQShopDemo
 //
-//  Created by 君凯商联网 on 2018/10/16.
-//  Copyright © 2018年 君凯商联网. All rights reserved.
+//  Created by Mr_Han on 2018/10/16.
+//  Copyright © 2018年 Mr_Han. All rights reserved.
 //
 
 #import "AppDelegate.h"
+
+#import "HQMainTabbarVC.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    HQMainTabbarVC *tabVC = [[HQMainTabbarVC alloc]init];
+    self.window.rootViewController = tabVC;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 

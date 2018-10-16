@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  HQMineVC.h
 //  HQShopDemo
 //
 //  Created by Mr_Han on 2018/10/16.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface HQMineVC : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

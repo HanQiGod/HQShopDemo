@@ -15,6 +15,16 @@
 		7A83B8132175977600A36BFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B8122175977600A36BFE /* main.m */; };
 		7A83B81D2175977600A36BFE /* HQShopDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B81C2175977600A36BFE /* HQShopDemoTests.m */; };
 		7A83B8282175977600A36BFE /* HQShopDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B8272175977600A36BFE /* HQShopDemoUITests.m */; };
+		7A83B8412175993B00A36BFE /* HQMainTabbarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B8402175993B00A36BFE /* HQMainTabbarVC.m */; };
+		7A83B8442175994E00A36BFE /* HQTabbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B8432175994E00A36BFE /* HQTabbar.m */; };
+		7A83B8482175B13500A36BFE /* UIImage+HQImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B8472175B13500A36BFE /* UIImage+HQImage.m */; };
+		7A83B84B2175B1C700A36BFE /* UIView+HQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B84A2175B1C700A36BFE /* UIView+HQExtension.m */; };
+		7A83B84E2175B2A000A36BFE /* HQHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B84D2175B2A000A36BFE /* HQHomeVC.m */; };
+		7A83B8512175B2C900A36BFE /* HQProjectVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B8502175B2C900A36BFE /* HQProjectVC.m */; };
+		7A83B8542175B2EA00A36BFE /* HQMineVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B8532175B2EA00A36BFE /* HQMineVC.m */; };
+		7A83B8572175B2FF00A36BFE /* HQCartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B8562175B2FF00A36BFE /* HQCartVC.m */; };
+		7A83B85A2175B31600A36BFE /* HQGoodsCategroyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B8592175B31600A36BFE /* HQGoodsCategroyVC.m */; };
+		7A83B85D2175BBE400A36BFE /* UIColor+HQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B85C2175BBE400A36BFE /* UIColor+HQColor.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,26 @@
 		7A83B8232175977600A36BFE /* HQShopDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HQShopDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A83B8272175977600A36BFE /* HQShopDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQShopDemoUITests.m; sourceTree = "<group>"; };
 		7A83B8292175977600A36BFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A83B83F2175993B00A36BFE /* HQMainTabbarVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQMainTabbarVC.h; sourceTree = "<group>"; };
+		7A83B8402175993B00A36BFE /* HQMainTabbarVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQMainTabbarVC.m; sourceTree = "<group>"; };
+		7A83B8422175994E00A36BFE /* HQTabbar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQTabbar.h; sourceTree = "<group>"; };
+		7A83B8432175994E00A36BFE /* HQTabbar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQTabbar.m; sourceTree = "<group>"; };
+		7A83B8462175B13500A36BFE /* UIImage+HQImage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+HQImage.h"; sourceTree = "<group>"; };
+		7A83B8472175B13500A36BFE /* UIImage+HQImage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+HQImage.m"; sourceTree = "<group>"; };
+		7A83B8492175B1C700A36BFE /* UIView+HQExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+HQExtension.h"; sourceTree = "<group>"; };
+		7A83B84A2175B1C700A36BFE /* UIView+HQExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+HQExtension.m"; sourceTree = "<group>"; };
+		7A83B84C2175B2A000A36BFE /* HQHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQHomeVC.h; sourceTree = "<group>"; };
+		7A83B84D2175B2A000A36BFE /* HQHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQHomeVC.m; sourceTree = "<group>"; };
+		7A83B84F2175B2C900A36BFE /* HQProjectVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQProjectVC.h; sourceTree = "<group>"; };
+		7A83B8502175B2C900A36BFE /* HQProjectVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQProjectVC.m; sourceTree = "<group>"; };
+		7A83B8522175B2EA00A36BFE /* HQMineVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQMineVC.h; sourceTree = "<group>"; };
+		7A83B8532175B2EA00A36BFE /* HQMineVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQMineVC.m; sourceTree = "<group>"; };
+		7A83B8552175B2FF00A36BFE /* HQCartVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQCartVC.h; sourceTree = "<group>"; };
+		7A83B8562175B2FF00A36BFE /* HQCartVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQCartVC.m; sourceTree = "<group>"; };
+		7A83B8582175B31600A36BFE /* HQGoodsCategroyVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HQGoodsCategroyVC.h; sourceTree = "<group>"; };
+		7A83B8592175B31600A36BFE /* HQGoodsCategroyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQGoodsCategroyVC.m; sourceTree = "<group>"; };
+		7A83B85B2175BBE400A36BFE /* UIColor+HQColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HQColor.h"; sourceTree = "<group>"; };
+		7A83B85C2175BBE400A36BFE /* UIColor+HQColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HQColor.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +131,8 @@
 		7A83B8022175977400A36BFE /* HQShopDemo */ = {
 			isa = PBXGroup;
 			children = (
+				7A83B8452175B0FD00A36BFE /* Categroy */,
+				7A83B8352175983B00A36BFE /* Classes */,
 				7A83B8032175977400A36BFE /* AppDelegate.h */,
 				7A83B8042175977400A36BFE /* AppDelegate.m */,
 				7A83B8062175977400A36BFE /* ViewController.h */,
@@ -130,6 +162,112 @@
 				7A83B8292175977600A36BFE /* Info.plist */,
 			);
 			path = HQShopDemoUITests;
+			sourceTree = "<group>";
+		};
+		7A83B8352175983B00A36BFE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7A83B83B2175987500A36BFE /* Main */,
+				7A83B8362175983B00A36BFE /* Home */,
+				7A83B8372175983B00A36BFE /* Project */,
+				7A83B8382175983B00A36BFE /* Me */,
+				7A83B8392175983B00A36BFE /* Cart */,
+				7A83B83A2175983B00A36BFE /* GoodsCategroy */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		7A83B8362175983B00A36BFE /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				7A83B84C2175B2A000A36BFE /* HQHomeVC.h */,
+				7A83B84D2175B2A000A36BFE /* HQHomeVC.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		7A83B8372175983B00A36BFE /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				7A83B84F2175B2C900A36BFE /* HQProjectVC.h */,
+				7A83B8502175B2C900A36BFE /* HQProjectVC.m */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		7A83B8382175983B00A36BFE /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				7A83B8522175B2EA00A36BFE /* HQMineVC.h */,
+				7A83B8532175B2EA00A36BFE /* HQMineVC.m */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		7A83B8392175983B00A36BFE /* Cart */ = {
+			isa = PBXGroup;
+			children = (
+				7A83B8552175B2FF00A36BFE /* HQCartVC.h */,
+				7A83B8562175B2FF00A36BFE /* HQCartVC.m */,
+			);
+			path = Cart;
+			sourceTree = "<group>";
+		};
+		7A83B83A2175983B00A36BFE /* GoodsCategroy */ = {
+			isa = PBXGroup;
+			children = (
+				7A83B8582175B31600A36BFE /* HQGoodsCategroyVC.h */,
+				7A83B8592175B31600A36BFE /* HQGoodsCategroyVC.m */,
+			);
+			path = GoodsCategroy;
+			sourceTree = "<group>";
+		};
+		7A83B83B2175987500A36BFE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				7A83B83D2175991E00A36BFE /* Controller */,
+				7A83B83E2175991E00A36BFE /* Model */,
+				7A83B83C2175991E00A36BFE /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		7A83B83C2175991E00A36BFE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A83B8422175994E00A36BFE /* HQTabbar.h */,
+				7A83B8432175994E00A36BFE /* HQTabbar.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A83B83D2175991E00A36BFE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7A83B83F2175993B00A36BFE /* HQMainTabbarVC.h */,
+				7A83B8402175993B00A36BFE /* HQMainTabbarVC.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7A83B83E2175991E00A36BFE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7A83B8452175B0FD00A36BFE /* Categroy */ = {
+			isa = PBXGroup;
+			children = (
+				7A83B8462175B13500A36BFE /* UIImage+HQImage.h */,
+				7A83B8472175B13500A36BFE /* UIImage+HQImage.m */,
+				7A83B8492175B1C700A36BFE /* UIView+HQExtension.h */,
+				7A83B84A2175B1C700A36BFE /* UIView+HQExtension.m */,
+				7A83B85B2175BBE400A36BFE /* UIColor+HQColor.h */,
+				7A83B85C2175BBE400A36BFE /* UIColor+HQColor.m */,
+			);
+			path = Categroy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,9 +400,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A83B8542175B2EA00A36BFE /* HQMineVC.m in Sources */,
+				7A83B84E2175B2A000A36BFE /* HQHomeVC.m in Sources */,
+				7A83B8512175B2C900A36BFE /* HQProjectVC.m in Sources */,
+				7A83B8482175B13500A36BFE /* UIImage+HQImage.m in Sources */,
+				7A83B84B2175B1C700A36BFE /* UIView+HQExtension.m in Sources */,
+				7A83B8572175B2FF00A36BFE /* HQCartVC.m in Sources */,
 				7A83B8082175977400A36BFE /* ViewController.m in Sources */,
+				7A83B85D2175BBE400A36BFE /* UIColor+HQColor.m in Sources */,
 				7A83B8132175977600A36BFE /* main.m in Sources */,
+				7A83B8412175993B00A36BFE /* HQMainTabbarVC.m in Sources */,
 				7A83B8052175977400A36BFE /* AppDelegate.m in Sources */,
+				7A83B85A2175B31600A36BFE /* HQGoodsCategroyVC.m in Sources */,
+				7A83B8442175994E00A36BFE /* HQTabbar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
