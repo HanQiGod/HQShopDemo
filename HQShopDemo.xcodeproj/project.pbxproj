@@ -25,6 +25,7 @@
 		7A83B8572175B2FF00A36BFE /* HQCartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B8562175B2FF00A36BFE /* HQCartVC.m */; };
 		7A83B85A2175B31600A36BFE /* HQGoodsCategroyVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B8592175B31600A36BFE /* HQGoodsCategroyVC.m */; };
 		7A83B85D2175BBE400A36BFE /* UIColor+HQColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A83B85C2175BBE400A36BFE /* UIColor+HQColor.m */; };
+		7A83B85F2175C39D00A36BFE /* 导航栏渐变.gif in Resources */ = {isa = PBXBuildFile; fileRef = 7A83B85E2175C39C00A36BFE /* 导航栏渐变.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -81,6 +82,7 @@
 		7A83B8592175B31600A36BFE /* HQGoodsCategroyVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HQGoodsCategroyVC.m; sourceTree = "<group>"; };
 		7A83B85B2175BBE400A36BFE /* UIColor+HQColor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+HQColor.h"; sourceTree = "<group>"; };
 		7A83B85C2175BBE400A36BFE /* UIColor+HQColor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HQColor.m"; sourceTree = "<group>"; };
+		7A83B85E2175C39C00A36BFE /* 导航栏渐变.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "导航栏渐变.gif"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -135,6 +137,7 @@
 				7A83B8352175983B00A36BFE /* Classes */,
 				7A83B8032175977400A36BFE /* AppDelegate.h */,
 				7A83B8042175977400A36BFE /* AppDelegate.m */,
+				7A83B85E2175C39C00A36BFE /* 导航栏渐变.gif */,
 				7A83B8062175977400A36BFE /* ViewController.h */,
 				7A83B8072175977400A36BFE /* ViewController.m */,
 				7A83B8092175977400A36BFE /* Main.storyboard */,
@@ -375,6 +378,7 @@
 			files = (
 				7A83B8102175977600A36BFE /* LaunchScreen.storyboard in Resources */,
 				7A83B80D2175977600A36BFE /* Assets.xcassets in Resources */,
+				7A83B85F2175C39D00A36BFE /* 导航栏渐变.gif in Resources */,
 				7A83B80B2175977400A36BFE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
